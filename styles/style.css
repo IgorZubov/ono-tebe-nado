@@ -6,7 +6,7 @@
   }
   
   .header {
-    padding: 92px 24px 96px 24px;
+    padding: 92px 24px 92px 24px;
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
@@ -248,7 +248,10 @@
   
   .logo_footer {
     width: 48px;
-    margin-right: 40px;
+  }
+
+  .logo_footer_margin {
+    margin-right: 48px;
   }
   
   .footer_menu {
