@@ -267,4 +267,8 @@
   .footer_menu_cards {
     display: flex;
   }
+
+  .bottom_block_address {
+    line-height: 1.35;
+  }
   
