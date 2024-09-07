@@ -201,6 +201,11 @@
     margin-left: 40px;
     font-size: 40px;
   }
+
+  .link-watch {
+    font-size: 20px;
+    padding-left: 40px;
+  }
   
   .auction_logo {
     width: 148px;
