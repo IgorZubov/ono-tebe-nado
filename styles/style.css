@@ -192,6 +192,7 @@
     width: 254px;
     text-decoration: underline;
     margin-top: 51px;
+    text-transform: uppercase;
   }
   
   .text_title {
@@ -217,23 +218,19 @@
   
   .auction_section_container {
     padding: 181px 24px 180px 71px;
-  }
-  
-  .mini_auction_section {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto 1fr;
   }
   
   .auction_title {
-    padding-left: 72px;
+    padding-bottom: 100px;
     text-transform: uppercase;
     font-size: 40px;
   }
   
   .about_auction {
-    display: flex;
-    width: 1000px;
-    justify-content: right;
+    padding-top: 98px;
+    padding-left: 72px;
   }
   .auction_description_text {
     font-size: 20px;
